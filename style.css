@@ -29,13 +29,6 @@ body {
   object-position: top center;
 }
 
-@media (min-width: 1024px) {
-  .hero-image img {
-    object-position: center top;
-  }
-}
-
-
 /* RIGHT CONTENT */
 .content {
   flex: 1;
