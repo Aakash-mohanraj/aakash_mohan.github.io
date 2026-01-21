@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aakash | Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="images/me.jpg" alt="My Photo" class="profile-img">
+    <h1>Aakash</h1>
+    <p>Tech • Music • Photography</p>
+    <span class="quote">Still I’m exist in this beautiful world</span>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m a tech guy who loves playing with PCs, laptops, and consoles.
+      I enjoy exploring how systems work and solving real-world technical problems.
+    </p>
+  </section>
+
+  <!-- PHOTOGRAPHY -->
+  <section class="section">
+    <h2>Photography</h2>
+    <div class="card">
+      <img src="images/camera.jpg" alt="Camera">
+      <p>
+        I love capturing moments using a <b>Nikon D500 DSLR with 50mm lens</b>.
+      </p>
+    </div>
+  </section>
+
+  <!-- MUSIC -->
+  <section class="section">
+    <h2>Music I Love</h2>
+
+    <p><b>Producers:</b> Ilaiyaraaja, Harris Jayaraj, A.R. Rahman, Mike Dean, Metro Boomin</p>
+    <p><b>Artists:</b> The Weeknd, Travis Scott, Don Toliver, SIA, Doja Cat, Janaki</p>
+
+    <div class="album-grid">
+      <div class="album">
+        <img src="images/kissland.jpg">
+        <span>Kiss Land</span>
+      </div>
+      <div class="album">
+        <img src="images/jackboys.jpg">
+        <span>Jackboys</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK EXPERIENCE -->
+  <section class="section">
+    <h2>Work Experience</h2>
+
+    <div class="work">
+      <h3>IT Support Engineer – Networking & Infrastructure</h3>
+      <span>Petregaz | Aug 2025 – Present</span>
+      <ul>
+        <li>Network & infrastructure support using Cisco Meraki</li>
+        <li>VM creation, server maintenance, patching</li>
+        <li>Active Directory, Microsoft 365 administration</li>
+      </ul>
+    </div>
+
+    <div class="work">
+      <h3>System Engineer</h3>
+      <span>Straive | Jul 2023 – Aug 2025</span>
+      <ul>
+        <li>OS deployment using WDS and VDI support</li>
+        <li>AD, VPN, and networking troubleshooting</li>
+        <li>Ticketing, audits, and infrastructure support</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section">
+    <h2>Technical Skills</h2>
+    <p>
+      Networking (TCP/IP, VLANs, DNS, DHCP) • Cisco Meraki • Active Directory •
+      Virtualisation • Microsoft 365 • IT Operations & Troubleshooting
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Aakash | Built with ❤️</p>
+  </footer>
+
+</body>
+</html>
