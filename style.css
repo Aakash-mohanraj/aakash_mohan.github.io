@@ -17,9 +17,10 @@ body {
 
 /* LEFT IMAGE */
 .hero-image {
-  flex: 1.5;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 /* RIGHT CONTENT */
@@ -105,5 +106,11 @@ body {
 .social-icons img:hover {
   opacity: 1;
   transform: translateY(-3px);
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    background-position: center top;
+  }
 }
 
