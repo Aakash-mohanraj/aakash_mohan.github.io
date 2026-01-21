@@ -16,11 +16,11 @@ body {
 }
 
 /* LEFT IMAGE */
+/* LEFT IMAGE */
 .hero-image {
+  flex: 1.5;
   background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  background-position: center;
 }
 
 /* RIGHT CONTENT */
@@ -108,9 +108,5 @@ body {
   transform: translateY(-3px);
 }
 
-@media (min-width: 1024px) {
-  .hero-image {
-    background-position: center top;
-  }
-}
+
 
